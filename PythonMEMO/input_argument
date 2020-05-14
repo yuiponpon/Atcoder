@@ -1,0 +1,8 @@
+import sys
+args = sys.argv
+
+##################################
+K,N = map(int,input().split())
+A = list(map(int,input().split()))
+###################################
+- map(int,input().split())はイテレータなのでlist()でイテラブルなオブジェクトにする

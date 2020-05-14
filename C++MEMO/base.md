@@ -108,11 +108,6 @@ heLLo
 # 多次元配列<https://atcoder.jp/contests/apg4b/tasks/APG4b_t>
 宣言の例： int型の2次元配列(3×4要素の)の宣言
 
-    vector<vector<int>> data(3, vector<int>(4));
-
-
-
-test
-  
+    vector<vector<int>> data(3, vector<int>(4));  
 
 

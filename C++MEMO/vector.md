@@ -4,3 +4,8 @@
 
         vector<int> v = {3,3,4,1};
         int n = count(v.begin(),v.end(),3);
+
+# 配列の要素のminとmaxを求める
+        vector<int> vec = {1,2,3};
+        cout << *min_element(vec.begin(),vec.end()) << endl; //1
+        cout << *max_element(vec.begin(),vec.end()) << endl; //3

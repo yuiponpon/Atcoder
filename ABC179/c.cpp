@@ -6,14 +6,9 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    vector<int> x(n);
-    rep(i,n) cin >> x[i];
-
-    int ans = 1001001001;
-    for(int p=1;p<=100;p++) {
-        int now = 0;
-        rep(i,n) now += pow(x[i]-p,2);
-        ans = min(ans,now);
+    int ans=0;
+    for(int a=1;a<n;a++) {
+        ans += (n-1) / a;
     }
     cout << ans << endl;
 

@@ -9,3 +9,10 @@
         vector<int> vec = {1,2,3};
         cout << *min_element(vec.begin(),vec.end()) << endl; //1
         cout << *max_element(vec.begin(),vec.end()) << endl; //3
+
+
+# 配列内の特定の要素を検索し，そのインデックスを求める
+        vector<int> v { 5, 4, 3, 2, 1 };
+
+        auto it = find(v.begin(), v.end(), 4);
+        auto index = distance(v.begin(), it);// 出力1
